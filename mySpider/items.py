@@ -16,3 +16,13 @@ class ItcastItem(scrapy.Item):
     name = scrapy.Field()
     title = scrapy.Field()
     info = scrapy.Field()
+
+
+class GswItem(scrapy.Item):
+    # define the fields for your item here like:
+    # name = scrapy.Field()
+    title = scrapy.Field()
+    author = scrapy.Field()
+    dynasty = scrapy.Field()
+    content = scrapy.Field()
+    pass
